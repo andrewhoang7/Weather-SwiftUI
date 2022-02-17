@@ -10,13 +10,21 @@ import SwiftUI
 struct ContentView: View {
     @StateObject var locationManager = LocationManager()
     
-    
     var body: some View {
         VStack {
-            WelcomeView()
-                .environmentObject(locationManager)
+            if let location = locationManager.location {
+                Text("Your coordinates are: \(location.longitude), \(location.latitude)")
+            } else {
+                if locationManager.isLoading {
+                    LoadingView()
+                } else {
+                    WelcomeView()
+                        .environmentObject(locationManager)
+                }
+            }
         }
-        .background(Color(hue: 0.587, saturation: 0.807, brightness: 0.872))
+        .background(Color(hue: 0.587, saturation: 0.938, brightness: 0.493))
+        .preferredColorScheme(.dark)
     }
 }
 
