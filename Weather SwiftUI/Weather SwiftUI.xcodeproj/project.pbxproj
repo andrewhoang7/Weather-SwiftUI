@@ -21,6 +21,7 @@
 		491BD6BE27BE91EA00B698C2 /* WeatherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 491BD6BD27BE91EA00B698C2 /* WeatherView.swift */; };
 		491BD6C027BE925600B698C2 /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 491BD6BF27BE925600B698C2 /* ModelData.swift */; };
 		491BD6C227BE927000B698C2 /* weatherData.json in Resources */ = {isa = PBXBuildFile; fileRef = 491BD6C127BE927000B698C2 /* weatherData.json */; };
+		491BD6C427BE935800B698C2 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 491BD6C327BE935800B698C2 /* Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +59,7 @@
 		491BD6BD27BE91EA00B698C2 /* WeatherView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherView.swift; sourceTree = "<group>"; };
 		491BD6BF27BE925600B698C2 /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
 		491BD6C127BE927000B698C2 /* weatherData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = weatherData.json; sourceTree = "<group>"; };
+		491BD6C327BE935800B698C2 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,6 +115,7 @@
 				491BD68927BDE5F300B698C2 /* Weather_SwiftUIApp.swift */,
 				491BD68D27BDE5F800B698C2 /* Assets.xcassets */,
 				491BD68F27BDE5F800B698C2 /* Preview Content */,
+				491BD6C327BE935800B698C2 /* Extensions.swift */,
 			);
 			path = "Weather SwiftUI";
 			sourceTree = "<group>";
@@ -296,6 +299,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				491BD6BC27BDF3CA00B698C2 /* WeatherManager.swift in Sources */,
+				491BD6C427BE935800B698C2 /* Extensions.swift in Sources */,
 				491BD68C27BDE5F300B698C2 /* ContentView.swift in Sources */,
 				491BD68A27BDE5F300B698C2 /* Weather_SwiftUIApp.swift in Sources */,
 				491BD6B527BDE9E700B698C2 /* LocationManager.swift in Sources */,
